@@ -11,7 +11,6 @@ Title: macbook pro M3 16 inch 2024
 import React, {useEffect} from 'react'
 import {useGLTF, useTexture} from '@react-three/drei'
 import useMacBookStore from "../../store/index.js";
-import * as child_process from "node:child_process";
 import {noChangeParts} from "../../constants/index.js";
 import * as THREE from "three";
 

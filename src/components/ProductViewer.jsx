@@ -1,9 +1,7 @@
 import React from "react";
 import useMacBookStore from "../store/index.js";
 import clsx from "clsx";
-import {Box, OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
-import MacBook14Model from "./models/MacBook14Model.jsx";
 
 import {StudioLights} from "./three/StudioLights.jsx";
 import ModelSwitcher from './three/modelSwitcher.jsx';
